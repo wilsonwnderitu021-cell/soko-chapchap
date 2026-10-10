@@ -1,0 +1,2 @@
+touch setup_guide.md
+echo "# Setup Guide for Soko ChapChap Marketplace\n\n## Prerequisites\n- Node.js installed\n- Supabase account for database\n\n## Steps\n1. Clone the repository:\n   ```bash\n   git clone https://github.com/yourusername/soko-chapchap.git\n   ```\n\n2. Navigate to the frontend and backend directories to install dependencies and run the applications as described in the README.\n" > docs/setup_guide.md
