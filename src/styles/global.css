@@ -1,0 +1,2 @@
+touch styles/global.css
+echo "body {margin: 0; font-family: sans-serif;}" > styles/global.css
