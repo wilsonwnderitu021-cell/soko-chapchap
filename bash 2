@@ -1,5 +1,0 @@
-mkdir frontend
-cd frontend
-mkdir public src
-cd src
-mkdir components pages styles utils
