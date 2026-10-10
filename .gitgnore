@@ -1,0 +1,2 @@
+touch .gitignore
+echo '# Node.js\nnode_modules/\nnpm-debug.log\nyarn-error.log\n\n# Environment Variables\n.env\n\n# Frontend build output\n.next/\n\n# Logs\nlogs\n*.log\n\n# Images and other files\n*.png\n*.jpg\n*.jpeg' > .gitignore
