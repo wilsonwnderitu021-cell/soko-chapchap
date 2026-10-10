@@ -1,0 +1,42 @@
+soko-chapchap/
+├── frontend/                       
+│   ├── public/                   
+│   │   ├── logo.png              # Logo of the marketplace
+│   │   └── images/               # Folder for product images 
+│   ├── src/                      
+│   │   ├── components/           
+│   │   │   ├── Header.js         
+│   │   │   ├── Footer.js         
+│   │   │   ├── ProductCard.js    
+│   │   │   └── CartItem.js       
+│   │   ├── pages/                
+│   │   │   ├── index.js          
+│   │   │   ├── products.js       
+│   │   │   ├── cart.js           
+│   │   │   ├── checkout.js        
+│   │   │   └── login.js          
+│   │   ├── styles/              
+│   │   │   └── global.css        
+│   │   ├── utils/               
+│   │   │   └── api.js            
+│   │   └── App.js                
+│   ├── tailwind.config.js        
+│   ├── package.json              
+│   ├── .env                     
+├── backend/                      
+│   ├── src/                     
+│   │   ├── controllers/         
+│   │   │   └── productController.js
+│   │   ├── models/              
+│   │   │   └── Product.js       
+│   │   ├── routes/              
+│   │   │   └── productRoutes.js 
+│   │   └── server.js            
+│   ├── .env                     
+│   ├── supabase_config.js       
+│   ├── package.json              
+├── docs/                         
+│   ├── setup_guide.md            
+│   ├── api_documentation.md      
+├── README.md                    
+└── .gitignore
